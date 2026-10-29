@@ -17,7 +17,7 @@ Adicione em `~/.claude/settings.json` :
 ```json
 {
   "extraKnownMarketplaces": {
-    "minhas-skills": { "source": { "source": "github", "repo": "Belasaudeprime/minhas-skills" } }
+    "minhas-skills": { "source": { "source": "github", "repo": "Belasaudeprime/minhas-skills" }, "autoUpdate": true }
   },
   "enabledPlugins": {
     "design-skills@minhas-skills": true,
