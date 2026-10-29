@@ -12,12 +12,12 @@ Skills do Claude Code, empacotadas como marketplace de plugins para funcionar em
 
 ## Instalar num PC novo
 
-Adicione em `~/.claude/settings.json` (troque USUARIO pelo seu usuário do GitHub):
+Adicione em `~/.claude/settings.json` :
 
 ```json
 {
   "extraKnownMarketplaces": {
-    "minhas-skills": { "source": { "source": "github", "repo": "USUARIO/minhas-skills" } }
+    "minhas-skills": { "source": { "source": "github", "repo": "Belasaudeprime/minhas-skills" } }
   },
   "enabledPlugins": {
     "design-skills@minhas-skills": true,
