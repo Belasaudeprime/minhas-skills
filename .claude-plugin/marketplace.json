@@ -1,0 +1,17 @@
+{
+  "name": "minhas-skills",
+  "owner": { "name": "Pedro" },
+  "description": "Skills pessoais para o Claude Code, disponíveis em qualquer PC.",
+  "plugins": [
+    {
+      "name": "design-skills",
+      "source": "./plugins/design-skills",
+      "description": "Frontend Design, Vercel Web Design Guidelines, React Best Practices, Composition Patterns, React Native, UI/UX Pro Max e Bencium UX Designer."
+    },
+    {
+      "name": "accesslint",
+      "source": "./plugins/accesslint",
+      "description": "Auditoria de acessibilidade WCAG 2.2 (AccessLint): audit, scan, inspect, fix e diff."
+    }
+  ]
+}
